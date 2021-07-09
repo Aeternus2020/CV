@@ -1,0 +1,28 @@
+html { font-size: 20px; }
+h1 { text-align: center; }
+.wrapper {                      
+    max-width: 60%;
+    margin: auto;
+    padding: 35px;
+    background-color:#a5a3b452;
+}
+img {
+    float: left; 
+    width: 250px;
+    height: 300px; 
+    margin: 35px;
+}
+main {
+    max-width: 700px;
+    border-color:#7fd2e0a4;
+    border-style: solid;
+    border-width: 10px;
+    background-color:#908dad52;
+    padding: 10px;
+    margin: auto;
+}
+main::after {
+    content: "";
+    clear: both;
+    display: block;
+}
