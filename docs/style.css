@@ -26,3 +26,8 @@ main::after {
     clear: both;
     display: block;
 }
+@media (max-width: 280px) {
+    img {
+        display: none;
+    }
+}
